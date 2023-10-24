@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <title>KiKi's Kookies</title>
+    <link rel="icon" href="img/headimg.jpeg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css/style.css"> <!-- You can create this stylesheet file for custom styling -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>    
+<body>
+    <!--Menu -->
+<div id="home" class="homePage">
+
+    <nav class="menuBar">
+        <div class="logo"><h1>KiKi's Kookies</h1></div>
+        <div class="openMenu"><i class="fa fa-bars"></i></div>
+        <ul class="mainMenu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <div class="closeMenu"><i class="fa fa-times"></i></div>
+            <span class="icons">
+                <!-- facebook -->
+            <a class="social" href="https://www.facebook.com/profile.php?id=100086608568487" target="_blank">
+                <i class="fab fa-facebook"></i>
+            </a>  
+              <!--Instagram  -->
+            <a class="social" href="https://instagram.com/kikisgourmetkookies" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <!-- Twitter handle -->
+            <a class="social" href="" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>    
+              
+            </span>
+        </ul>
+    </nav>
+<!-- Main body of home page -->
+    <section id="home-section">
+        <!--Top of the page heading calling it header -->
+        <br>
+        <br>
+        <br>
+        <h2 class="header">Discover Our Delicious Gourmet Cookies</h2>
+<!-- calling the top of the page paragraph a capturegraph-->
+        <p class="capturegraph">Welcome to Kiki's Kookies, your destination for gourmet cookies that redefine indulgence.
+             Our cookies, from classic Chocolate Chip to
+              Peanut Butter delights and tangy Lemon Bars,
+               are baked to perfection with love and the 
+               finest ingredients. Join us in savoring 
+               moments of pure cookie bliss, perfect for 
+               treating yourself or sharing with loved ones.
+                Experience artisanal cookie perfection at
+                 Kiki's Kookies – where every bite is a 
+                 celebration of taste! 🍪🌟</p>     
+    </section>
+
+
+     <!-- Styling link botton to menu -->  
+        <div class="button">
+     
+            <a href="#menu" class="neon-button">KiKi's Menu</a>
+       
+        </div>
+
+        <!-- Image Slider Cookie Gallery -->
+<div class="slider">
+    <div class="slides">
+        <!-- radio buttons start -->
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+        <input type="radio" name="radio-btn" id="radio5">
+        <input type="radio" name="radio-btn" id="radio6">
+        
+        <!-- radio buttons end -->
+
+        <!-- slide images start -->
+        <div class="slide first">
+            <img src="img/main1.jpg" alt="">
+        </div>
+        
+        <div class="slide">
+            <img src="img/Chocchip.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="img/peabut.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="img/snickerdoodle.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="img/pbccc.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="img/lb1.jpg" alt="">
+        </div>
+            <!-- slide image end -->
+            <!-- automatic navigation start -->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+                <div class="auto-btn5"></div>
+                <div class="auto-btn6"></div>
+                
+            </div> 
+            <!-- automatic navigation end -->
+    </div>
+    <!-- manual navigation start -->
+    <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+        <label for="radio5" class="manual-btn"></label>
+        <label for="radio6" class="manual-btn"></label>
+    </div>
+    <!-- manual navigation end -->
+</div>
+<br>
+<br>
+
+
+     <!--Picture Gallery--> 
+<div class="picGallery">
+    <h1 class="galleryHeading">Handcrafted Box's</h1>
+        <h3 class="galleryh3">Every batch of cookies comes in a beautiful handcrafted box.
+            <br>
+            These boxes make a perfect gift for any occasion!
+        </h3>
+        <div class="pic-container">
+            
+            <div class="box">
+                <img src="img/k1.JPG">
+            </div>
+            <!-- <div class="box two">
+                <img src="img/k2.JPG">
+            </div> -->
+            <div class="box">
+                <img src="img/k3.JPG">
+            </div>
+            <div class="box">
+                <img src="img/k4.JPG">
+            </div>
+            <!-- <div class="box">
+                <img src="img/k5.jpg">
+            </div> -->
+        </div>
+</div>
+</div>
+        <!--Cookie Menu-->
+<div id="menu" class="cookieMenu">
+    <h1>Menu</h1>
+    <h3>Order 24 cookies for $31.95
+        <br>
+        Order 12 cookies for $18.95
+    </h3>       
+    <div class="gallery">
+        <div class="content">
+            <img src="img/Chocchip.jpg" alt="">
+            <h3 class="menu-heading">Chocolate Chip Cookie</h3>
+            <p>Delicious choc chip cookies made with the finest ingredients.</p>
+            <h6>$31.95</h6>
+            <ul>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+            </ul>
+            <button class="buy-1"><a class="order-now" href="https://www.google.com">Order Now</a></button>
+        </div>
+
+        <div class="content">
+            <img src="img/pbccc.jpg" alt="">
+            <h3 class="menu-heading">Peanut Butter Chocolate Chip </h3>
+            <p>A perfect blend of peanut butter and Chocolate chips in every bite.</p>
+            <h6>$31.95</h6>
+            <ul>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+            </ul>
+            <button class="buy-2"><a class="order-now" href="https://www.google.com">Order Now</a></button>
+        </div>
+
+        <div class="content">
+            <img src="img/peabut.jpg" alt="">
+            <h3 class="menu-heading">Peanut Butter Cookie</h3>
+            <p>Classic peanut butter cookies with rich, nutty flavor.</p>
+            <h6>$31.95</h6>
+            <ul>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+            </ul>
+            <button class="buy-3"><a class="order-now" href="https://www.google.com">Order Now</a></button>
+        </div>
+
+        <div class="content">
+            <img src="img/snickerdoodle.jpg" alt="">
+            <h3 class="menu-heading">Snickerdoodle Cookie</h3>
+            <p>Indulge in the warm, buttery goodness of Snickerdoodle cookies.</p>
+            <h6>$31.95</h6>
+            <ul>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+            </ul>
+            <button class="buy-4"><a class="order-now" href="https://www.google.com">Order Now</a></button>
+        </div>
+
+        <div class="content">
+            <img src="img/lb1.jpg" alt="">
+            <h3 class="menu-heading">Zesty Lemon Bars</h3>
+            <p>Zesty and sweet lemon bars that will brighten your day!</p>
+            <h6>$31.95</h6>
+            <ul>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+            </ul>
+            <button class="buy-5"><a class="order-now" href="https://www.google.com">Order Now</a></button>
+        </div>
+    </div>
+</div>     
+<!-- Contact us page-->
+    <section id="contact" class="contact">
+      <div class="content2">    
+        <h2>Contact Us</h2>
+        <p>If you have any questions or would like to place an order, please contact us:</p>
+      </div>
+      <div class="container">
+        <div class="contactInfo">
+            <div class="box">
+                <div class="icon"><i class="fa fa-phone-square" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>970-712-9936</p>
+                    </div>
+            </div>        
+                <div class="box">
+                    <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>kikiskookies@gmail.com</p>
+                    </div>
+                </div>
+   
+                <!--Contact Page -->
+
+        </div>
+        <div class="contactForm">
+            <form action="#" class="formContact">
+                <h2>Send Message</h2>
+               <div class="inputBox">
+                <input id="name" type="text" name="name" required="required">
+                <span>Full Name</span>
+               </div> 
+               <div class="inputBox">
+                <input id="email" type="text" name="email" required="required">
+                <span>Email</span>
+               </div> 
+               <div class="inputBox">
+                <textarea id="message" required="required"></textarea>
+                <span>Type your message...</span>
+               </div> 
+               <div class="inputBox">
+                <input id="submit" type="submit" value="Send">
+               </div>
+            </form>
+            
+        </div>
+      </div> 
+      
+    </section>
+   
+
+
+            <!--About Page-->
+
+    <section id="about" class="about">
+        <h2>About</h2>
+        <p>Kiki's Kookies, where indulgence 
+            meets perfection! 🍪
+
+            At Kiki's Kookies, we're passionate about 
+            crafting gourmet cookies that are nothing 
+            short of extraordinary. Our mission is simple:
+             to delight your taste buds with cookies that 
+             are baked to perfection, bursting with flavor,
+              and made with the finest ingredients. 
+              When you bite into one of our delectable 
+              creations, you'll experience a symphony of 
+              flavors and textures that will transport 
+              you to a world of pure cookie bliss.
+        </p>
+            
+        
+         <p> What sets us apart? It's the love and care 
+            we put into every batch. From classic 
+            favorites like our Chocolate Chip Cookies to
+             the irresistible Peanut Butter Chocolate Chip
+              and the timeless Peanut Butter Cookies,
+               we pour our hearts into each recipe to
+                ensure you get the ultimate cookie 
+                experience. And let's not forget our
+                 tangy and zesty Lemon Bars, a delightful
+                  treat for those craving a citrusy twist.
+         </p>   
+            
+         <p>   But it's not just about cookies; it's 
+            about creating moments 
+            of joy. Whether you're treating yourself, 
+            sharing with friends and family, or gifting 
+            our cookies to someone special, Kiki's Kookies
+             are the perfect way to spread happiness, one 
+             bite at a time.
+         </p>   
+            
+        <p> We invite you to explore our mouthwatering
+            menu, learn more about our story,
+             and discover why Kiki's Kookies has become 
+             synonymous with artisanal cookie perfection.
+              Join us on this sweet journey as we continue
+               to redefine the art of cookie making, one 
+               freshly baked batch at a time.
+        </p>   
+          <p>  Thank you for visiting Kiki's Kookies – 
+            where every cookie is a masterpiece and every
+             bite is a celebration. Welcome to a world of
+              gourmet cookie excellence! 🌟
+        </p>
+    </section>
+    
+    <footer>
+        <span class="socialIcons">
+            <a class="social" href="https://www.facebook.com/profile.php?id=100086608568487" target="_blank">
+                <i class="fab fa-facebook"></i>
+            </a>    
+            <a class="social" href="https://instagram.com/kikisgourmetkookies" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a class="social" href="" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>    
+            </span>
+        <p>&copy; 2023 Kiki's Kookies. All rights reserved.</p>
+    </footer>
+    <script src="./app.js"></script>
+    <script src="./index.js"></script>
+    
+    </script>
+</body>
+</html>
